@@ -1,0 +1,46 @@
+.heading-container{
+    background: linear-gradient(to right, #00BFFF, white,#00BFFF);
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+.heading-container img{
+    margin-top: 10px;
+}
+.heading-container h1{
+    display: inline;
+    font-size: 70px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 5px;
+    justify-content: center;
+}
+.container{
+    width: 290px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(119, 188, 211);
+    
+}
+.container:hover{
+    background-color: #00BFFF;
+}
+.card-title{
+    text-align: left;
+}
+.card-text{
+    text-align: left;
+}
+.container img{
+    border-bottom: 1px solid black;
+}
+@media screen and (min-width: 400px) {
+    body {
+      background-color:rgb(227, 231, 235);
+    }
+  }
